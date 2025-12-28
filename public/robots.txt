@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noam-med-defense-3ee7dde8.zappy5.app/sitemap.xml

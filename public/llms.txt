@@ -1,0 +1,57 @@
+# Noam Med-Defense — Generative Engine Optimization Map
+
+> A מכשור רפואי ורגולציה business.
+
+---
+
+## Pages
+
+### בית
+https://noam-med-defense-3ee7dde8.zappy5.app
+Noam Med-Defense - מומחה ל NPI במכשור רפואי. פתרונות רגולציה מתקדמים לחברות מכשור רפואי. צור קשר עוד היום לייעוץ חינם!
+
+### שירותים
+https://noam-med-defense-3ee7dde8.zappy5.app/services
+שירותי מומחה ל NPI במכשור רפואי - ניהול תהליכי NPI, העברה מפיתוח לייצור, אישורי רגולציה והטמעת מערכות PLM. פתרונות מקצועיים לחברות מכשור רפואי.
+
+### אודות
+https://noam-med-defense-3ee7dde8.zappy5.app/about
+אודות Noam Med-Defense - מומחה ל NPI במכשור רפואי עם ניסיון רב שנים. צוות מקצועי המתמחה ברגולציה והעברה מפיתוח לייצור במערכות מכשור רפואי.
+
+### צור קשר
+https://noam-med-defense-3ee7dde8.zappy5.app/contact
+צור קשר עם Noam Med-Defense - מומחה ל NPI במכשור רפואי. נשמח לענות על שאלותיך ולספק ייעוץ מקצועי לפרויקט המכשור הרפואי שלך.
+
+## Legal & Policy
+
+### Privacy Policy
+https://noam-med-defense-3ee7dde8.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://noam-med-defense-3ee7dde8.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://noam-med-defense-3ee7dde8.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Noam Med-Defense
+Noam Med-Defense is a business in the מכשור רפואי ורגולציה industry.
+
+## Target Audience
+חברות מכשור רפואי
+
+## Industry
+מכשור רפואי ורגולציה
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://noam-med-defense-3ee7dde8.zappy5.app/sitemap.xml
+- **Robots.txt**: https://noam-med-defense-3ee7dde8.zappy5.app/robots.txt
