@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/sitemap.xml
+Sitemap: https://noam-med-defense.zappy5.app/sitemap.xml

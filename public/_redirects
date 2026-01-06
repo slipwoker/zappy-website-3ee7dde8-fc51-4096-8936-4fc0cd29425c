@@ -11,6 +11,22 @@
 /case-studies/npi-process  /case-studies/npi-process.html  200
 /case-studies/regulatory-changes  /case-studies/regulatory-changes.html  200
 /case-studies/plm-implementation  /case-studies/plm-implementation.html  200
+/our-team  /our-team.html  200
+
+# Language slug rewrites for SEO
+/en  /en/index.html  200
+/en/services  /en/services.html  200
+/en/privacy  /en/privacy.html  200
+/en/accessibility  /en/accessibility.html  200
+/en/about  /en/about.html  200
+/en/terms  /en/terms.html  200
+/en/contact  /en/contact.html  200
+/en/case-studies  /en/case-studies.html  200
+/en/case-studies/npi-process  /en/case-studies-npi-process.html  200
+/en/case-studies/regulatory-changes  /en/case-studies-regulatory-changes.html  200
+/en/case-studies/plm-implementation  /en/case-studies-plm-implementation.html  200
+/en/our-team  /en/our-team.html  200
+/en  /en/index.html  200
 
 # Legal pages - redirect old .html URLs to friendly URLs
 /privacy.html  /privacy  301
