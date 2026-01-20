@@ -92,8 +92,8 @@
             }
             
             /* Menu Group styling (non-clickable parent) - TOP LEVEL ONLY with ultra-specific selector */
-            .nav-menu > li > .menu-group-title,
-            #navMenu > li > .menu-group-title {
+            .nav-menu &gt; li &gt; .menu-group-title,
+            #navMenu &gt; li &gt; .menu-group-title {
               display: inline-block !important;
               padding: 0.5rem 1rem !important;
               color: var(--nav-color) !important;
@@ -107,13 +107,13 @@
               transition: color 0.3s ease !important;
             }
             
-            .nav-menu > li > .menu-group-title:hover,
-            #navMenu > li > .menu-group-title:hover {
+            .nav-menu &gt; li &gt; .menu-group-title:hover,
+            #navMenu &gt; li &gt; .menu-group-title:hover {
               color: var(--nav-hover-color) !important;
             }
             
             /* Desktop: show submenu on Menu Group hover */
-            li:has(.menu-group-title):hover > .sub-menu {
+            li:has(.menu-group-title):hover &gt; .sub-menu {
               opacity: 1 !important;
               visibility: visible !important;
               transform: translateY(0) !important;
@@ -122,7 +122,7 @@
             
             /* Hide menu items marked as hidden (overrides hover states) */
             .zappy-hidden-menu-item,
-            li:has(.menu-group-title):hover > .sub-menu .zappy-hidden-menu-item {
+            li:has(.menu-group-title):hover &gt; .sub-menu .zappy-hidden-menu-item {
               display: none !important;
               opacity: 0 !important;
               visibility: hidden !important;
@@ -175,9 +175,9 @@
             }
             
             /* Show submenu on parent hover - more specific selectors */
-            .nav-menu li:hover > .sub-menu,
-            nav li:hover > .sub-menu,
-            .navbar li:hover > .sub-menu {
+            .nav-menu li:hover &gt; .sub-menu,
+            nav li:hover &gt; .sub-menu,
+            .navbar li:hover &gt; .sub-menu {
               opacity: 1 !important;
               visibility: visible !important;
               transform: translateY(0) !important;
@@ -215,8 +215,8 @@
             }
             
             /* CRITICAL: Override submenu styles for TOP-LEVEL Menu Groups only - must come AFTER submenu styles */
-            .nav-menu > li > .menu-group-title,
-            #navMenu > li > .menu-group-title {
+            .nav-menu &gt; li &gt; .menu-group-title,
+            #navMenu &gt; li &gt; .menu-group-title {
               display: inline-block !important;
               padding: 0.5rem 1rem !important;
               color: var(--nav-color) !important;
@@ -230,8 +230,8 @@
               transition: color 0.3s ease !important;
             }
             
-            .nav-menu > li > .menu-group-title:hover,
-            #navMenu > li > .menu-group-title:hover {
+            .nav-menu &gt; li &gt; .menu-group-title:hover,
+            #navMenu &gt; li &gt; .menu-group-title:hover {
               color: var(--nav-hover-color) !important;
               background-color: transparent !important;
             }
@@ -272,18 +272,18 @@
               }
               
               /* Disable hover behavior on mobile */
-              .nav-menu li:hover > .sub-menu,
-              nav li:hover > .sub-menu,
-              .navbar li:hover > .sub-menu {
+              .nav-menu li:hover &gt; .sub-menu,
+              nav li:hover &gt; .sub-menu,
+              .navbar li:hover &gt; .sub-menu {
                 opacity: 0;
                 visibility: hidden;
                 pointer-events: none;
               }
               
               /* Enable visibility for expanded submenus */
-              .nav-menu li > .sub-menu.mobile-expanded,
-              nav li > .sub-menu.mobile-expanded,
-              .navbar li > .sub-menu.mobile-expanded {
+              .nav-menu li &gt; .sub-menu.mobile-expanded,
+              nav li &gt; .sub-menu.mobile-expanded,
+              .navbar li &gt; .sub-menu.mobile-expanded {
                 opacity: 1 !important;
                 visibility: visible !important;
                 pointer-events: auto !important;
@@ -309,11 +309,11 @@
               }
               
               /* Parent link - takes most space, allows navigation */
-              .nav-menu li:has(.sub-menu) > a,
-              nav li:has(.sub-menu) > a,
-              .navbar li:has(.sub-menu) > a,
-              .nav-menu > li > .menu-group-title,
-              #navMenu > li > .menu-group-title {
+              .nav-menu li:has(.sub-menu) &gt; a,
+              nav li:has(.sub-menu) &gt; a,
+              .navbar li:has(.sub-menu) &gt; a,
+              .nav-menu &gt; li &gt; .menu-group-title,
+              #navMenu &gt; li &gt; .menu-group-title {
                 flex: 1 !important;
               }
               
@@ -350,9 +350,9 @@
               }
               
               /* Submenu takes full width below parent */
-              .nav-menu li:has(.sub-menu) > .sub-menu,
-              nav li:has(.sub-menu) > .sub-menu,
-              .navbar li:has(.sub-menu) > .sub-menu {
+              .nav-menu li:has(.sub-menu) &gt; .sub-menu,
+              nav li:has(.sub-menu) &gt; .sub-menu,
+              .navbar li:has(.sub-menu) &gt; .sub-menu {
                 flex-basis: 100% !important;
                 width: 100% !important;
               }
@@ -372,10 +372,10 @@
             (function() {
               function initMobileMenuToggles() {
                 // Only run on mobile
-                if (window.innerWidth > 768) {
+                if (window.innerWidth &gt; 768) {
                   // Remove any toggle buttons on desktop
-                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn => btn.remove());
-                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu => {
+                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn =&gt; btn.remove());
+                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu =&gt; {
                     menu.classList.remove('mobile-expanded');
                   });
                   console.log('[MOBILE MENU] Desktop mode - cleanup done');
@@ -398,7 +398,7 @@
                   }
                   
                   const submenu = li.querySelector('.sub-menu');
-                  const parentLink = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
+                  const parentLink = li.querySelector(':scope &gt; a') || li.querySelector(':scope &gt; .menu-group-title');
                   
                   if (!submenu || !parentLink) return;
                   
@@ -458,7 +458,7 @@
               // This handles cases where the mobile menu is hidden initially
               const observer = new MutationObserver(function(mutations) {
                 mutations.forEach(function(mutation) {
-                  if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                  if (mutation.type === 'attributes' &amp;&amp; mutation.attributeName === 'class') {
                     const target = mutation.target;
                     if (target.classList.contains('active') || target.style.display !== 'none') {
                       console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
@@ -557,7 +557,7 @@ section[data-zappy-section] { display: block !important; grid-template-columns: 
 }
 /* Hero container fixes - contain absolute images */
 [class*="hero"], [id*="hero"] { position: relative !important; overflow: hidden !important; }
-[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
+[class*="hero"] &gt; .container, [id*="hero"] &gt; .container { position: relative; z-index: 2; }
 .hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
 /* Prevent hero positioning on non-hero page images */
 img[data-no-hero-position] { position: static !important; }
@@ -599,9 +599,9 @@ img[data-no-hero-position] { position: static !important; }
         list-style: none;
         pointer-events: none;
       }
-      .nav-menu li:hover > .sub-menu,
-      nav li:hover > .sub-menu,
-      .navbar li:hover > .sub-menu {
+      .nav-menu li:hover &gt; .sub-menu,
+      nav li:hover &gt; .sub-menu,
+      .navbar li:hover &gt; .sub-menu {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
@@ -863,7 +863,7 @@ img[data-no-hero-position] { position: static !important; }
 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
 </svg>
 </button>
-<ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a><ul class="sub-menu"></ul></li><li class="nav-cta-item-mobile"><a href="/contact">צור קשר</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/case-studies" class="nav-link">מקרי בוחן</a><ul class="sub-menu"><li><a href="/case-studies/npi-process" class="nav-link">תהליך NPI</a></li><li><a href="/case-studies/regulatory-changes" class="nav-link">רגולציה ושינויים</a></li><li><a href="/case-studies/plm-implementation" class="nav-link">הטמעת PLM</a></li></ul></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/field-experts-partnership" class="nav-link">מומחי תחום בשת"פ</a></li></ul>
+<ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/case-studies" class="nav-link">מקרי בוחן</a><ul class="sub-menu"><li><a href="/case-studies/npi-process">תהליך NPI במכשור רפואי - מקרה בוחן להעברה מפיתוח לייצור | Noam Med-Defense</a></li><li><a href="/case-studies/regulatory-changes">אישורי רגולציה לשינויי תכן - ניהול סיכונים ותיעוד | Noam Med-Defense</a></li><li><a href="/case-studies/plm-implementation">הטמעת PLM בחברת מכשור רפואי - סדר בתיעוד | Noam Med-Defense</a></li></ul></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/field-experts-partnership" class="nav-link">מומחי תחום בשת"פ</a></li><li class="nav-cta-item-mobile"><a href="/contact">צור קשר</a></li></ul>
 
 <div class="nav-cta-container">
 <li class="nav-cta-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li>
@@ -988,14 +988,14 @@ img[data-no-hero-position] { position: static !important; }
         var header = document.getElementById('zappy-attribution-header');
         if (header) {
           // Use dynamic announcement content if available
-          if (data.announcement && data.announcement.html) {
+          if (data.announcement &amp;&amp; data.announcement.html) {
             header.innerHTML = data.announcement.html;
           }
           // Apply fixed positioning styles inline (works for existing sites too)
           header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
           // Fix child elements that might have position: fixed from old CSS
           var children = header.querySelectorAll('*');
-          for (var i = 0; i < children.length; i++) {
+          for (var i = 0; i &lt; children.length; i++) {
             children[i].style.position = 'static';
           }
           // Get header height
@@ -1003,9 +1003,9 @@ img[data-no-hero-position] { position: static !important; }
           // Find and fix navbar to be fixed as well (prevents gap at top of page)
           var navSelectors = ['nav', '.navbar', '.nav'];
           var navbar = null;
-          for (var j = 0; j < navSelectors.length; j++) {
+          for (var j = 0; j &lt; navSelectors.length; j++) {
             navbar = document.querySelector(navSelectors[j]);
-            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            if (navbar &amp;&amp; navbar.id !== 'zappy-attribution-header') break;
             navbar = null;
           }
           if (navbar) {
