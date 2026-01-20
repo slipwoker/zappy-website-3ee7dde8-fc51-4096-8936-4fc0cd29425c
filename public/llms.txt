@@ -1,77 +1,67 @@
-# Noam Med-Defense — Generative Engine Optimization Map
-
-> A מכשור רפואי ורגולציה business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### פתרונות רגולציה מתקדמים במכשור רפואי — Noam Med-Defense
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com
+https://med-defense.com
 Noam Med-Defense - מומחה ל NPI במכשור רפואי. פתרונות רגולציה מתקדמים לחברות מכשור רפואי. צור קשר עוד היום לייעוץ חינם!
 
 ### שירותי מומחה ל NPI ורגולציה במכשור רפואי — Noam Med-Defense
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/services
+https://med-defense.com/services
 שירותי מומחה ל NPI במכשור רפואי - ניהול תהליכי NPI, העברה מפיתוח לייצור, אישורי רגולציה והטמעת מערכות PLM. פתרונות מקצועיים לחברות מכשור רפואי.
 
 ### אודות המומחים שלנו במכשור רפואי — Noam Med-Defense
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/about
+https://med-defense.com/about
 אודות Noam Med-Defense - מומחה ל NPI במכשור רפואי עם ניסיון רב שנים. צוות מקצועי המתמחה ברגולציה והעברה מפיתוח לייצור במערכות מכשור רפואי.
 
 ### צור קשר עם המומחים שלנו — Noam Med-Defense
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/contact
+https://med-defense.com/contact
 צור קשר עם Noam Med-Defense - מומחה ל NPI במכשור רפואי. נשמח לענות על שאלותיך ולספק ייעוץ מקצועי לפרויקט המכשור הרפואי שלך.
 
 ### מקרי בוחן - מומחה ל NPI ורגולציה במכשור רפואי | Noam Med-Defense
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/case-studies
+https://med-defense.com/case-studies
 מקרי בוחן וסיפורי הצלחה בתחום המכשור הרפואי. למדו כיצד מומחה ל NPI במכשור רפואי מסייע בהעברה מפיתוח לייצור, אישורי רגולציה והטמעת מערכות PLM.
 
 ### תהליך NPI
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/case-studies/npi-process
+https://med-defense.com/case-studies/npi-process
 מקרה בוחן מפורט על תהליך NPI במכשור רפואי. כיצד מומחה להעברה מפיתוח לייצור מסייע בצמצום עלויות וקיצור זמנים.
 
 ### רגולציה ושינויים
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/case-studies/regulatory-changes
+https://med-defense.com/case-studies/regulatory-changes
 כיצד מנהלים שינויי תכן במכשור רפואי לאחר אישור? מקרה בוחן על מומחה בקבלת אישורי רגולציה לשינויי תכן ועבודה מול גופים רגולטוריים.
 
 ### הטמעת PLM
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/case-studies/plm-implementation
+https://med-defense.com/case-studies/plm-implementation
 כיצד הטמעת מערכת PLM משפרת את תהליכי הפיתוח והייצור? מקרה בוחן על הובלת הטמעה של מערכות PLM, תיעוד וניהול שינויים.
 
 ### הצוות שלנו - נעם מד-דיפנס
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/our-team
+https://med-defense.com/field-experts-partnership
 הכירו את הצוות המקצועי של נעם מד-דיפנס. מומחים ל-NPI במכשור רפואי, העברה מפיתוח לייצור, רגולציה והבטחת איכות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/privacy
+https://med-defense.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/terms
+https://med-defense.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/accessibility
+https://med-defense.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Noam Med-Defense
-Noam Med-Defense is a business in the מכשור רפואי ורגולציה industry.
-
-## Target Audience
-חברות מכשור רפואי
-
-## Industry
-מכשור רפואי ורגולציה
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-3ee7dde8-fc51-4096-8936.onrender.com/robots.txt
+- **Sitemap**: https://med-defense.com/sitemap.xml
+- **Robots.txt**: https://med-defense.com/robots.txt
