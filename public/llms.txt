@@ -1,6 +1,4 @@
-# Noam Med-Defense — Generative Engine Optimization Map
-
-> A מכשור רפואי ורגולציה business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -41,6 +39,9 @@ https://med-defense.com/field-experts-partnership
 https://med-defense.com/contact
 צור קשר עם Noam Med-Defense - מומחה ל NPI במכשור רפואי. נשמח לענות על שאלותיך ולספק ייעוץ מקצועי לפרויקט המכשור הרפואי שלך.
 
+### Page
+https://med-defense.com/copy
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -59,15 +60,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Noam Med-Defense
-Noam Med-Defense is a business in the מכשור רפואי ורגולציה industry.
-
-## Target Audience
-חברות מכשור רפואי
-
-## Industry
-מכשור רפואי ורגולציה
-
+## About Business
 ---
 
 # Additional Resources
