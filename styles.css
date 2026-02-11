@@ -942,6 +942,32 @@ html[dir="rtl"] .zappy-lang-switcher-container {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   NAV-CTA POSITION FIX (Applied: 2026-02-11T09:19:40.082Z)
+   Purpose:
+   - Reset .nav-menu auto margin so it doesn't consume all free space.
+   - Use justify-content: flex-start so items group near logo.
+   - Push .nav-cta-container to the far end of the navbar with auto margin.
+   Note: No @media wrapper - on mobile these elements are display:none anyway.
+   ═══════════════════════════════════════════════════════════════════════════ */
+/* Group items near logo (flex-start), reset nav-menu margins */
+.nav-container {
+  justify-content: flex-start !important;
+}
+.nav-menu {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+/* LTR: push CTA to far right */
+.nav-cta-container {
+  margin-left: auto !important;
+}
+/* RTL: push CTA to far left */
+html[dir="rtl"] .nav-cta-container {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+/* ═══════════════════════════════════════════════════════════════════════════ */
 
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
@@ -993,6 +1019,17 @@ html[dir="rtl"] .zappy-lang-switcher-container {
 /* ========== NAV CONTAINER MIN-HEIGHT FIX (nav-container-min-height-fix) ========== */
 /* On mobile, all nav children are position:absolute/fixed (out of flow), */
 /* so height:auto collapses to 0px. min-height ensures the navbar is visible. */
+
+/* DEFENSIVE: Ensure CTA container is visible on desktop */
+/* This guards against CSS minifiers (CleanCSS level 2) that may pull */
+/* the mobile display:none rule out of its @media query */
+@media (min-width: 769px) {
+  .nav-cta-container,
+  .nav-cta-container:not(:has(.lang-switcher)) {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
 
 @media (max-width: 768px) {
   .nav-container {
