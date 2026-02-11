@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# Noam Med-Defense — Generative Engine Optimization Map
+
+> A מכשור רפואי ורגולציה business.
 
 ---
 
@@ -57,7 +59,15 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About Noam Med-Defense
+Noam Med-Defense is a business in the מכשור רפואי ורגולציה industry.
+
+## Target Audience
+חברות מכשור רפואי
+
+## Industry
+מכשור רפואי ורגולציה
+
 ---
 
 # Additional Resources
